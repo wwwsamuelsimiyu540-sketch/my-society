@@ -1,7 +1,7 @@
 // ==================== CONFIGURATION ====================
 // TODO: Replace these strings with your actual online Supabase credentials
-const SUPABASE_URL = "https://supabase.co"; 
-const SUPABASE_ANON_KEY = "your-long-anonymous-public-key-here";
+const SUPABASE_URL = "https://sklvzkjjjgyiyjhgxqfw.supabase.co"; 
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNrbHZ6a2pqamd5aXlqaGd4cWZ3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc5MTM5OTI5MywiZXhwIjoyMTA2OTc1MjkzfQ.AenQHY0IF60Wz1GrVGC_711DbkDi8IZMYM8l3OaoV08";
 
 const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
